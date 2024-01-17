@@ -1,0 +1,44 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: goldenrod;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+    font-style: oblique;
+}
+
+button {
+    color: #016f32;
+    text-align: center;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    margin-top: 4px;
+    margin-bottom: 4px;
+
+}
+
+button:hover {
+    background-color: red;
+    box-shadow: red;
+    color: white;
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(4px);
+    background-color: yellowgreen;
+    box-shadow: red;
+}
